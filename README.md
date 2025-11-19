@@ -34,5 +34,49 @@ To get the Timezone and time i have used the pytz module and timezonefinder modu
 ![Empty Gui](https://user-images.githubusercontent.com/87264935/163683668-f659b80e-2ef2-4553-99d2-6f0728c7a968.png)
 ![Output](https://user-images.githubusercontent.com/87264935/163683683-1b0c70c1-0c52-46d2-b7a9-962626c15238.png)
 
+## How to Run the Application
+
+### 1. Install Dependencies
+ **Python 3** needs to be installed.  
+Then install the required packages:
+
+```bash
+pip install pytz
+pip install threading
+pip install requests
+pip install datetime
+pip install timezonefinder
+```
+
+
+
+### 2. Create an OpenWeather Account
+Go to: https://openweathermap.org/  
+Create an account.
+
+### 3. Confirm Your Email
+OpenWeather will send a verification link to your email.  
+After confirming, you will receive an **API key** via email, as well as on the dashboard.
+
+### 4. Obtain Your API Key
+Go to the **API Keys** section on your OpenWeather dashboard and copy your key.
+
+### 5. Configure the Application
+Open the `config.ini` file in the project directory and paste your API key:
+
+```ini
+api = YOUR_API_KEY_HERE
+```
+
+### 6. Run the Application
+Start the app using:
+
+```bash
+python3 app.py
+```
+
+After the app launches, type any city into the search bar and press **Enter**.
+
 ### Author:
 **Prathamesh Dhande**
+s
