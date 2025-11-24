@@ -77,6 +77,12 @@ python3 app.py
 
 After the app launches, type any city into the search bar and press **Enter**.
 
+## Feature to Implement: 
+
+Implement a favorites dropdown that will save cities the user has previously searched for and saved as favorites. 
+
+Also, implement the ability to toggle between Celsius and Farenheiht. 
+
 ### Author:
 **Prathamesh Dhande**
-s
+
